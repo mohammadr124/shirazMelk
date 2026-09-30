@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "MainFont";
+    src: url("./assets/fonts/mainFont.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "MainFont";
+    src: url("./assets/fonts/number.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0030-U+0039, U+06F0-U+06F9;
+}
+
+body {
+    font-family: "MainFont", sans-serif;
+    direction: rtl;
+} 
